@@ -4,37 +4,6 @@ using ServiceStack.WebHost.Endpoints;
 
 namespace sample
 {
-  public class Hello
-  {
-    public string Name { get; set; }
-  }
-
-  public class HelloResponse
-  {
-    public string Result { get; set; }
-  }
-
-  public class HelloService : Service
-  {
-    public object Any( Hello request )
-    {
-      return new HelloResponse{ Result = @"Hello!" + request.Name };
-    }
-  }
-
-  public class AppHost : AppHostHttpListenerBase
-  {
-    public AppHost() : base( @"HttpListener Self-Host", typeof( HelloService ).Assembly )
-    {
-    }
-
-    public override void Configure( Funq.Container container )
-    {
-      Routes.Add<Hello>( @"/hello" );
-      Routes.Add<Hello>( @"/hello/{Name}" );
-    }
-  }
-
   public class Program
   {
     public static int Main( string[] args )

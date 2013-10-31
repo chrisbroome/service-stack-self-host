@@ -33,6 +33,10 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Compile Include="Program.cs" />
+    <Compile Include="AppHost.cs" />
+    <Compile Include="HelloService.cs" />
+    <Compile Include="HelloResponse.cs" />
+    <Compile Include="Hello.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="ServiceStack.Text">
