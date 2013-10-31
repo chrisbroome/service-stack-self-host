@@ -1,6 +1,4 @@
-using System;
 using ServiceStack.ServiceInterface;
-using ServiceStack.WebHost.Endpoints;
 
 namespace Sample
 {
