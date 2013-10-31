@@ -2,7 +2,7 @@ using System;
 using ServiceStack.ServiceInterface;
 using ServiceStack.WebHost.Endpoints;
 
-namespace sample
+namespace Sample
 {
   public class HelloResponse
   {

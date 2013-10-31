@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{8FCE39E6-0317-4B99-A012-C4CF107ABEE6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>sample</RootNamespace>
+    <RootNamespace>Sample</RootNamespace>
     <AssemblyName>sample</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">

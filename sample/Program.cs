@@ -2,13 +2,13 @@ using System;
 using ServiceStack.ServiceInterface;
 using ServiceStack.WebHost.Endpoints;
 
-namespace sample
+namespace Sample
 {
   public class Program
   {
     public static int Main( string[] args )
     {
-      var listeningOn = args.Length == 0 ? @"http://localhost:1337/" : args[0];
+      var listeningOn = args.Length == 0 ? @"http://localhost:3000/" : args[0];
       var appHost = new AppHost();
       appHost.Init();
       appHost.Start( listeningOn );
