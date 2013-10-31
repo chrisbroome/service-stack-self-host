@@ -1,0 +1,2 @@
+#!/bin/sh
+xbuild sample.sln /p:OutDir=../out/

@@ -3,6 +3,6 @@
 packages/*
 !packages/repositories.config
 
-build/
+out/
 
 *.userprefs
